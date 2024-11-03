@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@font-face {
+    font-family: iransans;
+    src: url(../fonts/IRANSansWeb.ttf);
+    font-family: iransansbold;
+    src: url(../fonts/IRANSansWeb_Bold.ttf);
+    font-family: iransanslight;
+    src: url(../fonts/IRANSansWeb_Light.ttf);
+}
+
+body {
+    direction: rtl;
+    font-family: iransanslight;
+}
+.swiper-button-next:after, .swiper-button-prev:after {
+    font-family: swiper-icons;
+    font-size: 15px !important;
+    color: black !important;
+    text-transform: none !important;
+    letter-spacing: 0;
+    font-variant: initial;
+    line-height: 1;
+}
+.fixed-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0 4px 2px -2px rgb(255, 255, 255);
+  }
+.text-article_height {
+    max-height: 190px; 
+    overflow: hidden;
+    filter: blur(1px);
+}
+
+  
